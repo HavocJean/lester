@@ -1,0 +1,504 @@
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* MENU */
+.fundo-top {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(77, 0, 150), rgb(130, 0, 255));
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+}
+
+.menu {
+    height: 70px;
+}
+
+.logo {
+    height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+.logo img {
+    width: 90%;
+    padding-top: 10px;
+}
+
+.menus {
+    height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+.menuinterno a {
+    height: 70px;
+    padding-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #FFF;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuinterno a:hover {
+    color: #d8d8d8;
+}
+
+.menufixo {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all .5s;
+    background-color: black;
+}
+
+.icones {
+    height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+.icones img {
+    padding-top: 17px;
+    margin-left: 16%;
+}
+
+.search {
+    height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.search img {
+    padding-top: 22px;
+    margin-left: 40%;
+}
+
+.buscar {
+    height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    display: none;
+}
+
+.buscar form input {
+    background-color: transparent;
+    width: 70%;
+    margin-top: 17px;
+    margin-left: 10px;
+    border: none;
+    color: #FFF;
+    font-size: 13;
+}
+
+.buscar form input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #CCC;
+    font-size: 13px;
+}
+
+/* DROPDOWN CONF */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    max-height: 45px;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* TOPO CSS */
+.texto-um h1 {
+    color: #FFF;
+    font-size: 56px;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bolder;
+}
+
+.texto-dois h5 {
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icones-grande {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icones-grande img {
+    margin-left: 15px;
+}
+
+.scrolldown {
+    color: #CCC;
+    font-size: 12px;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    letter-spacing: 1px;
+}
+
+
+
+/* COMEÇO DO WHAT WE DO */
+.wwdo {
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.wwdo h2 {
+    font-size: 45px;
+}
+
+.wwdo hr {
+    width: 5%;
+    height: 1px;
+    background-color: black;
+}
+
+.wwdoimgs img {
+    padding-top: 60px;
+}
+
+
+/* CSS BAIXO DAS IMAGENS WHAT WE DO */
+.numeros {
+    padding-top: 40px;
+}
+
+.numeros h2 {
+    font-size: 60px;
+    color: #ee3158;
+}
+
+
+/* PARTE DO EFEITO PARALLAX */
+.digital {
+    padding-top: 150px;
+}
+
+.conteudo-esq {
+    padding-top: 100px;
+    border-top: 1px solid #ededed;
+    height: 600px;
+}
+
+.conteudo-esq h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.conteudo-esq p {
+    color: #999;
+    font-size: 14px;
+}
+
+.webpixel {
+    padding-left: 50px;
+}
+
+.webpixel h6, p {
+    padding-left: 15px;
+}
+
+.parallax {
+    width: 100%;
+    height: 600px;
+    background-image: url('../imgs/pc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.whoweare {
+    border-bottom: 1px solid #ededed;
+}
+
+.whoweare h2 {
+    padding-top: 100px;
+    padding-left: 60px;
+    font-weight: bolder;
+    font-size: 38px;
+}
+
+.whoweare p {
+    color: rgb(128, 127, 127);
+    font-size: 14px;
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-right: 60px;
+    text-align: left; 
+    line-height: 25px;
+}
+
+.botaoe {
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: #999;
+    border-radius: 5px;
+}
+
+.botaoe:hover {
+    color: black;
+}
+
+.botaom {
+    width: 150px;
+    height: 40px;
+    background-color: #ee3158;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.botaom:hover {
+    color: #CCC;
+}
+
+/* NUMEROS PROJETOS */
+.numerosfim {
+    padding-top: 100px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+
+.numerosfim h2 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #CCC;
+    border-right: 1px solid #ededed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.numerosfim p {
+    font-weight: bold;
+    color: #CCC;
+    border-right: 1px solid #ededed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.numerosfim h2:hover {
+    color: #ee3158;
+}
+
+.numerosfim p:hover {
+    color: #ee3158;
+}
+
+
+/* CSS OUR TEAM / FAZER CAROUSEL */ 
+.ourteam {
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.ourteam h2 {
+    font-size: 45px;
+}
+
+.ourteam hr {
+    width: 5%;
+    height: 1px;
+    background-color: black;
+}
+
+.teste {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.teste img {
+    width: 80%;
+    max-height: 400px;
+}
+
+.teste img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* PARTE DA PAGINA QUE ESTA O PARALLAX DOIS */
+.parallaxfim {
+    width: 100%;
+    height: 450px;
+    background-image: url('../imgs/bg-pag.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.interno {
+    width: 500px;
+    height: 250px;
+    background-color: #ee3158;
+    margin: 0 auto;
+}
+
+.interno h4 {
+    font-size: 24px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 80px;
+}
+
+
+/* CSS DIFERENT LAYOUT */
+.direitabaixo h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.direitabaixo p {
+    color: rgb(128, 127, 127);
+    font-size: 14px;
+    padding-left: 0px;
+    text-align: left; 
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+
+/* FOOTER */
+.about h5, .latest h5, .contact h5 {
+    font-size: 14px;
+    color: #b8b9ba;
+}
+
+.about hr, .latest hr, .contact hr {
+    width: 90%;
+    height: 0.1px;
+    background-color: #727171;
+    margin-left:0px;
+}
+
+.about p, .contact p {
+    color: rgb(128, 127, 127);
+    font-size: 13px;
+    padding-left: 0px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-right: 10%;
+}
+
+.about button {
+    margin-top:15px;
+    width: 15%;
+    height: 40px;
+    background-color: #ee3158;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.about button:hover {
+    color: #CCC;
+}
+
+.about input {
+    margin-top:15px;
+    width: 75%;
+    height: 40px;
+    background-color: #424447;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid #727171;
+    cursor: pointer;
+    color: #FFF;
+    padding-left:15px;
+}
+
+.contact h6 a {
+    color: rgb(128, 127, 127);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contact h6 a:hover {
+    color: #ee3158;
+}
+
+.fim {
+    color: rgb(128, 127, 127);
+    font-size: 14px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* CSS DA ANIMAÇAO */
+[data-anime] {
+    opacity: 0;
+    transition: .6s;
+}
+
+[data-anime="bottom"] {
+    transform: translate3d(0px, 150px, 0px);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
